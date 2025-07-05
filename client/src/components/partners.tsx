@@ -1,26 +1,26 @@
 export default function Partners() {
   const partners = [
-    "SAUDI TELECOM", "ORANGE EGYPT", "ARAMCO", "CIB EGYPT",
-    "SABIC", "TALABAT", "ALRAJHI BANK", "FAWRY",
-    "NEOM", "VODAFONE EGYPT", "STC PAY", "BANQUE MISR",
-    "UBER EGYPT", "CAREEM", "ETISALAT MISR", "QNB ALAHLI",
-    "JAHEZ", "HUNGERSTATION", "SOUQ.COM", "NOON"
+    "ALMARAI", "NANA", "ULTIMATE", "VENUERIFIC", "AGA", "KAYANEE",
+    "CALIBRE CHOICE", "DERINGERS", "FROM WITHIN SALON", "SALWA", "CBI", "KOYA",
+    "AL WING GRAND", "O1CHI", "CLINIC", "RED SEA", "LIFE EYES", "FARIED", 
+    "AL ASMA CLINICS", "SETRA", "RAPID", "MUSTASHFA", "WINGS", "SEERATILIK",
+    "ROYAL CARE", "LIPE", "HOUSE OF JEWEL", "RAFAL", "AL ASHLY", "AL KHAIR"
   ];
 
   const stats = [
-    { number: "50+", label: "Strategic Partnerships" },
-    { number: "200M+", label: "Combined Reach" },
-    { number: "5+", label: "Years of Collaboration" }
+    { number: "30+", label: "Trusted Clients" },
+    { number: "150M+", label: "Combined Reach" },
+    { number: "5+", label: "Years of Excellence" }
   ];
 
   return (
     <section id="partners" className="bg-white py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6">Our Partners</h2>
+          <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6">Our Clients</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We collaborate with leading brands and organizations across Saudi Arabia and Egypt 
-            to create impactful marketing solutions.
+            We're proud to work with diverse brands and organizations across various industries, 
+            delivering exceptional marketing solutions that drive real results.
           </p>
         </div>
         

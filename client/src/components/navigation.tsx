@@ -43,7 +43,7 @@ export default function Navigation() {
               Portfolio
             </button>
             <button onClick={() => scrollToSection("partners")} className="hover:text-black transition-colors font-medium text-dark-gray">
-              Partners
+              Clients
             </button>
             <button onClick={() => scrollToSection("about")} className="hover:text-black transition-colors font-medium text-dark-gray">
               About
@@ -76,7 +76,7 @@ export default function Navigation() {
                 Portfolio
               </button>
               <button onClick={() => scrollToSection("partners")} className="block hover:text-black transition-colors font-medium text-dark-gray">
-                Partners
+                Clients
               </button>
               <button onClick={() => scrollToSection("about")} className="block hover:text-black transition-colors font-medium text-dark-gray">
                 About

@@ -13,7 +13,7 @@ export default function Footer() {
     { label: "Home", section: "home" },
     { label: "Services", section: "services" },
     { label: "Portfolio", section: "portfolio" },
-    { label: "Partners", section: "partners" },
+    { label: "Clients", section: "partners" },
     { label: "About", section: "about" },
     { label: "Contact", section: "contact" }
   ];

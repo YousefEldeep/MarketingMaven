@@ -97,7 +97,8 @@ Preferred communication style: Simple, everyday language.
 - July 05, 2025: Enhanced website with real Saudi Marketing branding
   - Integrated actual company logo asset
   - Updated portfolio with authentic Saudi-Egyptian partnership projects
-  - Expanded partners list to include major Saudi and Egyptian companies
+  - Replaced partners section with real client companies from provided image
+  - Updated navigation and footer to reflect "Clients" terminology
   - Added portfolio metrics and enhanced hover effects
   - Removed contact form to simplify user experience
   - Cleaned up backend by removing unused API routes
