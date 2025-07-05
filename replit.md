@@ -99,6 +99,8 @@ Preferred communication style: Simple, everyday language.
   - Updated portfolio with authentic Saudi-Egyptian partnership projects
   - Expanded partners list to include major Saudi and Egyptian companies
   - Added portfolio metrics and enhanced hover effects
+  - Removed contact form to simplify user experience
+  - Cleaned up backend by removing unused API routes
   - Fixed TypeScript issues in backend storage
 
 ## Changelog
