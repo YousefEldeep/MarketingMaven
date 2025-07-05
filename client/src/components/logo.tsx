@@ -1,3 +1,5 @@
+import logoImage from "@assets/EditedBy-TheInfluencer.ai-1751726058533_1751741191298.jpg";
+
 interface LogoProps {
   className?: string;
   textColor?: string;
@@ -6,9 +8,11 @@ interface LogoProps {
 export default function Logo({ className = "", textColor = "text-black" }: LogoProps) {
   return (
     <div className={`flex items-center space-x-3 ${className}`}>
-      <div className="bg-black rounded-lg p-2 w-12 h-12 flex items-center justify-center">
-        <span className="text-white font-bold text-xl font-playfair">SA</span>
-      </div>
+      <img 
+        src={logoImage} 
+        alt="Saudi Marketing Logo" 
+        className="w-12 h-12 object-contain"
+      />
       <div className={textColor}>
         <div className="font-playfair font-semibold text-lg">SAUDI</div>
         <div className="font-inter text-sm -mt-1">Marketing</div>

@@ -6,39 +6,45 @@ export default function Portfolio() {
   const portfolioItems = [
     {
       category: "digital",
-      title: "Digital Campaign Portfolio",
-      description: "Innovative digital marketing campaigns for Egyptian market",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800"
+      title: "Saudi Telecom Egypt Launch",
+      description: "Digital campaign for STC's market entry into Egypt with localized messaging and cultural adaptation",
+      image: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
+      metrics: "2.5M+ reach, 15% engagement rate"
     },
     {
       category: "branding",
-      title: "Brand Identity Projects",
-      description: "Complete brand development for Egyptian businesses",
-      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800"
+      title: "NEOM Future City Branding",
+      description: "Brand positioning and visual identity for NEOM's Egyptian partnerships and investments",
+      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
+      metrics: "Brand awareness increased by 40%"
     },
     {
       category: "partnerships",
-      title: "Strategic Partnerships",
-      description: "Cross-border collaboration campaigns",
-      image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800"
+      title: "Aramco-Egypt Energy Alliance",
+      description: "Strategic communication campaign for Saudi Aramco's energy partnerships in Egypt",
+      image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
+      metrics: "Government stakeholder approval 95%"
     },
     {
       category: "digital",
-      title: "E-commerce Solutions",
-      description: "Digital transformation for retail brands",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800"
+      title: "AlRajhi Bank Digital Expansion",
+      description: "Digital marketing strategy for AlRajhi Bank's Egyptian market penetration",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
+      metrics: "Customer acquisition +60%"
     },
     {
       category: "branding",
-      title: "Visual Identity Design",
-      description: "Creative brand development projects",
-      image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800"
+      title: "SABIC Sustainability Initiative",
+      description: "Environmental sustainability messaging and brand campaign for SABIC in Egypt",
+      image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
+      metrics: "ESG rating improvement 25 points"
     },
     {
-      category: "digital",
-      title: "Integrated Campaigns",
-      description: "Multi-channel marketing strategies",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800"
+      category: "partnerships",
+      title: "Saudi-Egyptian Tourism Bridge",
+      description: "Cross-cultural tourism campaign promoting Saudi destinations to Egyptian travelers",
+      image: "https://images.unsplash.com/photo-1539650116574-75c0c6b73469?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
+      metrics: "Tourism bookings +180%"
     }
   ];
 
@@ -97,12 +103,13 @@ export default function Portfolio() {
                 alt={item.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div className="absolute inset-0 bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <div className="text-center p-6">
                   <h3 className="font-playfair text-xl font-semibold mb-2">{item.title}</h3>
-                  <p className="text-gray-300 mb-4">{item.description}</p>
-                  <button className="bg-white text-black px-4 py-2 rounded font-medium">
-                    View Details
+                  <p className="text-gray-300 mb-3 text-sm">{item.description}</p>
+                  <p className="text-yellow-400 mb-4 text-sm font-medium">{item.metrics}</p>
+                  <button className="bg-white text-black px-4 py-2 rounded font-medium text-sm hover:bg-gray-100 transition-colors">
+                    View Case Study
                   </button>
                 </div>
               </div>

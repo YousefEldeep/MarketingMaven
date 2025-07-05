@@ -2,7 +2,9 @@ export default function Partners() {
   const partners = [
     "SAUDI TELECOM", "ORANGE EGYPT", "ARAMCO", "CIB EGYPT",
     "SABIC", "TALABAT", "ALRAJHI BANK", "FAWRY",
-    "NEOM", "SWVL", "STC PAY", "VODAFONE EGYPT"
+    "NEOM", "VODAFONE EGYPT", "STC PAY", "BANQUE MISR",
+    "UBER EGYPT", "CAREEM", "ETISALAT MISR", "QNB ALAHLI",
+    "JAHEZ", "HUNGERSTATION", "SOUQ.COM", "NOON"
   ];
 
   const stats = [
@@ -23,13 +25,13 @@ export default function Partners() {
         </div>
         
         {/* Partners Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center">
           {partners.map((partner, index) => (
             <div 
               key={index}
-              className="bg-off-white p-6 rounded-lg flex items-center justify-center h-24 hover:bg-gray-100 transition-colors"
+              className="bg-off-white p-4 rounded-lg flex items-center justify-center h-20 hover:bg-gray-100 transition-colors"
             >
-              <div className="text-gray-400 font-semibold text-sm text-center">
+              <div className="text-gray-400 font-semibold text-xs text-center leading-tight">
                 {partner}
               </div>
             </div>

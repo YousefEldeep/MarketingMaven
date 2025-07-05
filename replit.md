@@ -92,7 +92,15 @@ The application follows a monorepo structure with separate client and server dir
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes
+
+- July 05, 2025: Enhanced website with real Saudi Marketing branding
+  - Integrated actual company logo asset
+  - Updated portfolio with authentic Saudi-Egyptian partnership projects
+  - Expanded partners list to include major Saudi and Egyptian companies
+  - Added portfolio metrics and enhanced hover effects
+  - Fixed TypeScript issues in backend storage
+
 ## Changelog
 
-Changelog:
-- July 05, 2025. Initial setup
+- July 05, 2025: Initial setup and branding enhancement
